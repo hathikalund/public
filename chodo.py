@@ -270,7 +270,7 @@ def start_bgmi_reply(message, target, port, time):
     # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
-COOLDOWN_TIME =0
+COOLDOWN_TIME =20
 
 bgmi_running = False
 
@@ -292,7 +292,7 @@ def handle_bgmi(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
 
-            if time > 120:
+            if time > 181:
                 response = "Error: Buy From @HMSahil9 For More Time"
             else:
                 bgmi_running = True  # Set the bgmi state to running
