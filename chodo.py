@@ -302,7 +302,7 @@ def handle_bgmi(message):
                     start_bgmi_reply(message, target, port, time)
 
                     # Simulate bgmi process
-                    full_command = f"./bgmi {target} {port} {time}"
+                    full_command = f"./RAJ {target} {port} {time}"
                     subprocess.run(full_command, shell=True)
 
                     response = "bgmi Ritik ne chot ke fek diya @Riyahacksyt isski mummy ko."
