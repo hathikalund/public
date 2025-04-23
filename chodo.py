@@ -4,10 +4,10 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7877126466:AAH6lNFpehRtrqV7pU4Gl2hHV5UNupLLsfo')
+bot = telebot.TeleBot('7576183544:AAFbwSF8YrBQG2IjJYsv4VjA_PBiXm6x040')
 
 # Admin user IDs
-admin_id = {"1174779637"}
+admin_id = {"6955279265"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -292,7 +292,7 @@ def handle_bgmi(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
 
-            if time > 181:
+            if time > 241:
                 response = "Error: Buy From @HMSahil9 For More Time"
             else:
                 bgmi_running = True  # Set the bgmi state to running
